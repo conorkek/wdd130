@@ -1,11 +1,28 @@
+header {
+    background-color: #00b4d8;
+}
 body {
+    background-color: #ffffff;
+}
+#content {
+    margin: 0 auto;
     max-width: 1600px;
 }
-div {
-    margin: 0 auto ;
+nav {
+    width: 1600px;
 }
 nav a {
     text-align: center;
+    color: darkblue;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #caf0f8;
+    color: darkblue;
+    text-decoration: none;
+}
+#hero-img {
+    width: 100%;
 }
 #hero-msg h1 {
     text-align: center;
@@ -16,18 +33,72 @@ nav a {
 .button-box {
     text-align: center;
 }
-.home-grid {
+main section {
     text-align: center;
+}
+h1 {
+    color: darkblue;
+    font-size: 2.0em;
+}
+section h2 {
+    color: darkblue;
+    font-size: 1.5em;
+}
+h4 {
+    color: darkblue;
+    font-size: 1.5em;
 }
 #background {
     height: 725px;
+    background-color: #00b4d8;
+    color: darkblue;
 }
-body {
-    background-color: #0077b6;
+.book {
+    background-color: #00b4d8;
+    color: darkblue;
+    text-decoration: none;
 }
-header {
-    background-color: #0077b6;
+.book:hover {
+    background-color: #caf0f8;
+    color: darkblue;
+    text-decoration: none;
 }
-nav a:hover {
+.join {
+    background-color: #00b4d8;
+    color: darkblue;
+    text-decoration: none;
+}
+.join:hover {
+    background-color: #caf0f8;
+    color: darkblue;
+    text-decoration: none;
+}
+.msg {
+    background-color: #90e0ef;
+}
+.msg h2 {
+    color: darkblue;
+    font-size: 1.75em;
+}
+.msg p {
+    color: darkblue;
+    font-size: 1.2em;
+}
+footer {
+    background-color: #90e0ef;
+}
+footer p {
+    color: black;
+    font-size: 1.2em
+}
+footer a {
+    color: black;
+}
+footer p a:hover {
+    text-decoration: underline;
     background-color: #0077b6;
+    color: #caf0f8;
+}
+.icon, .logo {
+    width: 80px;
 }
