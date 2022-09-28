@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rum+Raisin&display=swap');
 header {
     background-color: #00b4d8;
+    font-family: "Rum Raisin", "Arial", "sans-serif";
+}
+/* "section h1" is .home-title */
+section h1 {
+    font-family: "Rum Raisin", "Arial", "sans-serif";
+    font-size: 2em;
+    margin-top: 10px;
 }
 body {
     background-color: #ffffff;
+    font-family: "Roboto", "Helvetica", "sans-serif";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 #content {
     margin: 0 auto;
@@ -15,6 +27,7 @@ nav a {
     text-align: center;
     color: darkblue;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #caf0f8;
@@ -36,6 +49,9 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 h1 {
     color: darkblue;
     font-size: 2.0em;
@@ -43,6 +59,7 @@ h1 {
 section h2 {
     color: darkblue;
     font-size: 1.5em;
+    margin: 0;
 }
 h4 {
     color: darkblue;
@@ -53,43 +70,49 @@ h4 {
     background-color: #00b4d8;
     color: darkblue;
 }
-.book {
+.book, .join {
     background-color: #00b4d8;
     color: darkblue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.book:hover {
+.book:hover, .join:hover {
     background-color: #caf0f8;
     color: darkblue;
     text-decoration: none;
 }
-.join {
-    background-color: #00b4d8;
-    color: darkblue;
-    text-decoration: none;
-}
-.join:hover {
-    background-color: #caf0f8;
-    color: darkblue;
-    text-decoration: none;
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}   
+.card-img {
+    border: 10px solid #00b4d8;
 }
 .msg {
     background-color: #90e0ef;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: darkblue;
     font-size: 1.75em;
+    font-family:"Rum Raisin", "Arial", "sans-serif";
 }
 .msg p {
     color: darkblue;
-    font-size: 1.2em;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #90e0ef;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     color: black;
-    font-size: 1.2em
+    font-size: 0.8em
 }
 footer a {
     color: black;
@@ -99,6 +122,16 @@ footer p a:hover {
     background-color: #0077b6;
     color: #caf0f8;
 }
-.icon, .logo {
+footer .social img {
+    padding-top: 15px;
+}
+.icon {
     width: 80px;
+    padding-top: 10px;
+}
+.logo {
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
 }
