@@ -4,7 +4,7 @@ header {
     font-family: "Rum Raisin", "Arial", "sans-serif";
 }
 /* "section h1" is .home-title */
-section h1 {
+.home-title {
     font-family: "Rum Raisin", "Arial", "sans-serif";
     font-size: 2em;
     margin-top: 10px;
