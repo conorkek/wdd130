@@ -271,6 +271,8 @@ footer .social img {
     grid-row: 8/9;
     background-color: #00b4d8;
     margin: 100px 0px 0px 0px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px #0034b6;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
