@@ -228,7 +228,7 @@ footer .social img {
     box-shadow: 5px 5px 10px #0034b6;
 }
 .salmon-river {
-    grid-column: 2/5;
+    grid-column: 2/6;
     grid-row: 2/3;
     margin-top: 150px;
 }
@@ -241,9 +241,9 @@ footer .social img {
     box-shadow: 5px 5px 10px #0034b6;
 }
 .desolation-river {
-    grid-column: 6/10;
+    grid-column: 7/10;
     grid-row: 4/5;
-    margin-top: 38px;
+    margin: 38px 0px 0px -50px;
 }
 .desolation-paragraph {
     grid-column: 2/6;
@@ -254,7 +254,7 @@ footer .social img {
     box-shadow: 5px 5px 10px #0034b6;
 }
 .grand-river {
-    grid-column: 2/5;
+    grid-column: 2/6;
     grid-row: 6/7;
     margin-top: 90px;
 }
