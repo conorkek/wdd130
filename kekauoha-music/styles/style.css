@@ -90,6 +90,7 @@ h2 {
 .violin-img {
     border: 10px solid #BE0140;
     box-shadow: 5px 5px 10px #BE0140;
+    border-radius: 15px;
 }
 #background-msg {
     background-color: #FB5B55;
@@ -97,6 +98,7 @@ h2 {
     grid-row: 2/3;
     border: 10px solid #BE0140;
     box-shadow: 5px 5px 10px #BE0140;
+    border-radius: 15px;
 }
 .welcoming-msg {
     grid-column: 6/10;
