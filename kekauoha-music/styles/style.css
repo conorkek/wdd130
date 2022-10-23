@@ -245,4 +245,6 @@ footer .social img {
 .uke-kid-photo {
     border: 10px solid #000;
     width: 45%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #000;
 }
