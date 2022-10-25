@@ -172,7 +172,7 @@ footer .social img {
     grid-row: 1;
     text-align: center;
     background-color: #FFEB7E;
-    padding: 20px 10px;
+    padding: 20px 20px;
     border: 10px solid #FAC8B0;
     border-radius: 15px;
 }
@@ -181,20 +181,12 @@ footer .social img {
     grid-row: 2;
     text-align: center;
     background-color: #FFEB7E;
-    padding: 20px 10px;
+    padding: 20px 20px;
     border: 10px solid #FAC8B0;
     border-radius: 15px;
 }
 .whatiteach-grid {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.pv-msg {
-    display: flex;
-    width: 100%;
-    gap: 50px;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -206,11 +198,19 @@ footer .social img {
     justify-content: space-between;
     align-items: center;
 }
+.pv-msg {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .piano-msg {
     width: 100%;
     text-align: center;
     background-color: #FB5B55;
-    padding: 20px 10px;
+    padding: 20px 20px;
     border: 10px solid #BE0140;
     border-radius: 15px;
     box-shadow: 10px 10px 10px #56001d;
@@ -219,7 +219,7 @@ footer .social img {
     width: 100%;
     text-align: center;
     background-color: #FFEB7E;
-    padding: 20px 10px;
+    padding: 20px 20px;
     border: 10px solid #FAC8B0;
     border-radius: 15px;
     box-shadow: 10px 10px 10px #fb996c;
@@ -228,7 +228,7 @@ footer .social img {
     width: 100%;
     text-align: center;
     background-color: #FB5B55;
-    padding: 20px 10px;
+    padding: 20px 20px;
     border: 10px solid #BE0140;
     border-radius: 15px;
     box-shadow: 10px 10px 10px #56001d;
@@ -237,7 +237,7 @@ footer .social img {
     width: 100%;
     text-align: center;
     background-color: #FFEB7E;
-    padding: 20px 10px;
+    padding: 20px 20px;
     border: 10px solid #FAC8B0;
     border-radius: 15px;
     box-shadow: 10px 10px 10px #fb996c;
@@ -247,4 +247,88 @@ footer .social img {
     width: 45%;
     border-radius: 15px;
     box-shadow: 10px 10px 10px #000;
+}
+/* CSS for Why Choose Conor? page */
+.why-title {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.choose-conor {
+    font-family: "Kalam", "Arial", "sans-serif";
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    background-color: #FB5B55;
+    padding: 20px 10px;
+    border: 10px solid #BE0140;
+    border-radius: 15px;
+}
+.whychooseconor-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.reasons-msg {
+    display: flex;
+    width: 80%;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.reasons2-msg {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.more-to-learn-msg {
+    width: 100%;
+    text-align: center;
+    background-color: #FB5B55;
+    padding: 20px 20px;
+    border: 10px solid #FAC8B0;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #fb996c;
+}
+.fun-msg {
+    width: 100%;
+    text-align: center;
+    background-color: #FFEB7E;
+    padding: 20px 20px;
+    border: 10px solid #fb996c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #FB5B55;
+}
+.piano-student-photo {
+    border: 10px solid #000;
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #000;
+}
+.uke-girl-photo {
+    border: 10px solid #000;
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #000;
+}
+.worksheets-msg {
+    width: 100%;
+    text-align: center;
+    background-color: #FB5B55;
+    padding: 20px 20px;
+    border: 10px solid #FAC8B0;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #fb996c;
+}
+.platforms-msg {
+    width: 100%;
+    text-align: center;
+    background-color: #FFEB7E;
+    padding: 20px 20px;
+    border: 10px solid #fb996c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #FB5B55;
 }
